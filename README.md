@@ -2,7 +2,7 @@
 
 我是扑克x
 
-欢迎通过QQ：2639914082联系我！！！
+欢迎通过[QQ](http://wpa.qq.com/msgrd?v=3&uin=2639914082&site=qq&menu=yes)联系我！！！
 
 ## 仓库中曾经使用过的
 
@@ -42,7 +42,7 @@
 
 [![:Outlook](https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:poker_sang@outlook.com)
 
-[QQ](tencent://message/?uin=2639914082&Site=Sambow&Menu=yes)
+[QQ](http://wpa.qq.com/msgrd?v=3&uin=2639914082&site=qq&menu=yes)
 
 ## 数据
 
