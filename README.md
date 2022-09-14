@@ -11,6 +11,8 @@
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![AzureDevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=for-the-badge&logo=azure-devops&logoColor=white)
 
+<!--
+
 ## 仓库中曾经使用过的
 
 ### 语言
@@ -70,6 +72,8 @@
 [![Outlook](https://img.shields.io/badge/Outlook-poker__sang@outlook.com-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:poker_sang@outlook.com)
 [![Bilibili](https://img.shields.io/badge/Bilibili-扑克子-00A1D6?style=for-the-badge&logo=Bilibili&logoColor=white)](https://space.bilibili.com/8528315)
 ![Steam](https://img.shields.io/badge/Steam-356397585-000000?style=for-the-badge&logo=Steam&logoColor=white)
+
+-->
 
 ## 数据
 
