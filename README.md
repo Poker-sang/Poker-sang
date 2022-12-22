@@ -2,7 +2,7 @@
 
 我是扑克x
 
-欢迎通过[QQ](http://wpa.qq.com/msgrd?v=3&uin=2639914082&site=qq&menu=yes)联系我！！！
+欢迎通过[QQ](https://qm.qq.com/cgi-bin/qm/qr?k=qTmjHzMXcjAJ_0wl0P1BZilGpAw6WXwX&noverify=0&personal_qrcode_source=4)联系我！！！
 
 ## 近期打算学习的
 
@@ -68,7 +68,7 @@
 ## 联系
 
 [![GitHub](https://img.shields.io/badge/GitHub-poker--sang-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Poker-sang)
-[![QQ](https://img.shields.io/badge/QQ-2639914082-EB1923?style=for-the-badge&logo=TencentQQ&logoColor=white)](http://wpa.qq.com/msgrd?v=3&uin=2639914082&site=qq&menu=yes)
+[![QQ](https://img.shields.io/badge/QQ-2639914082-EB1923?style=for-the-badge&logo=TencentQQ&logoColor=white)](https://qm.qq.com/cgi-bin/qm/qr?k=qTmjHzMXcjAJ_0wl0P1BZilGpAw6WXwX&noverify=0&personal_qrcode_source=4)
 [![Outlook](https://img.shields.io/badge/Outlook-poker__sang@outlook.com-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:poker_sang@outlook.com)
 [![Bilibili](https://img.shields.io/badge/Bilibili-扑克子-00A1D6?style=for-the-badge&logo=Bilibili&logoColor=white)](https://space.bilibili.com/8528315)
 ![Steam](https://img.shields.io/badge/Steam-356397585-000000?style=for-the-badge&logo=Steam&logoColor=white)
