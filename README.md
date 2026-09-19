@@ -4,7 +4,7 @@
 
 欢迎通过[QQ](https://qm.qq.com/cgi-bin/qm/qr?k=qTmjHzMXcjAJ_0wl0P1BZilGpAw6WXwX&noverify=0&personal_qrcode_source=4)联系我！！！
 
-## 近期打算学习的
+## ~~近期~~打算学习的
 
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?&style=for-the-badge&logo=kotlin&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
