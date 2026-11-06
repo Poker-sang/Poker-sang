@@ -1,6 +1,44 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="350" viewBox="0 0 1200 350" role="img" aria-labelledby="title description">
   <title id="title">Poker · 泥嚎！！</title>
-  <desc id="description">Poker-sang 的个人主页横幅。淡紫与冰蓝的三张扑克牌，围绕着一枚黑桃。</desc>
+  <desc id="description">Poker-sang 的个人主页横幅。三张淡紫与冰蓝的扑克牌在开场时展开，随后轻轻浮动，星点缓慢闪烁。减少动态效果时显示静态画面。</desc>
+  <style>
+    /* Play the fan-out once; separate inner groups keep the idle motion continuous. */
+    .fan-left,.fan-right,.fan-front{transform-box:view-box;transform-origin:0 0}
+    .fan-left{animation:unfold-left 1.15s cubic-bezier(.22,.75,.24,1) .15s both}
+    .fan-right{animation:unfold-right 1.25s cubic-bezier(.22,.75,.24,1) .23s both}
+    .fan-front{animation:deal-front .9s cubic-bezier(.22,.75,.24,1) both}
+    .drift-left{animation:float-left 6.8s ease-in-out 1.5s infinite}
+    .drift-right{animation:float-right 7.6s ease-in-out 1.5s infinite}
+    .drift-front{animation:float-front 7s ease-in-out 1.5s infinite}
+    .sparkle{animation:twinkle 4.8s ease-in-out 1.5s infinite both}
+    .sparkle-two{animation-duration:5.7s;animation-delay:2.1s}
+    .sparkle-three{animation-duration:6.2s;animation-delay:1.8s}
+    .sparkle-four{animation-duration:5.1s;animation-delay:2.7s}
+    @keyframes unfold-left{
+      from{transform:translate(918px,188px) rotate(-4deg);opacity:0}
+      15%{opacity:1}
+      75%{transform:translate(814px,178px) rotate(-23deg)}
+      to{transform:translate(819px,180px) rotate(-22deg);opacity:1}
+    }
+    @keyframes unfold-right{
+      from{transform:translate(918px,188px) rotate(-4deg);opacity:0}
+      15%{opacity:1}
+      75%{transform:translate(1019px,178px) rotate(23deg)}
+      to{transform:translate(1014px,180px) rotate(22deg);opacity:1}
+    }
+    @keyframes deal-front{
+      from{transform:translate(918px,195px) rotate(-4deg);opacity:0}
+      75%{transform:translate(918px,169px) rotate(-4deg);opacity:1}
+      to{transform:translate(918px,171px) rotate(-4deg);opacity:1}
+    }
+    @keyframes float-left{0%,100%{transform:translateY(0) rotate(0deg)}50%{transform:translateY(-4px) rotate(-.7deg)}}
+    @keyframes float-right{0%,100%{transform:translateY(0) rotate(0deg)}50%{transform:translateY(4px) rotate(.7deg)}}
+    @keyframes float-front{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+    @keyframes twinkle{0%,100%{opacity:.4}50%{opacity:1}}
+    @media (prefers-reduced-motion:reduce){
+      .fan-left,.fan-right,.fan-front,.drift-left,.drift-right,.drift-front,.sparkle{animation:none!important}
+    }
+  </style>
   <defs>
     <linearGradient id="wash" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9178d6" stop-opacity=".10"/><stop offset=".52" stop-color="#4398b9" stop-opacity=".025"/><stop offset="1" stop-color="#ca6d8c" stop-opacity=".08"/></linearGradient>
     <linearGradient id="heading" x1="0" x2="1"><stop stop-color="#252b43"/><stop offset="1" stop-color="#7460ab"/></linearGradient>
@@ -28,19 +66,19 @@
       <use xlink:href="#spade" transform="translate(273 297) scale(.16)" fill="#9178d6"/>
       <use xlink:href="#diamond" transform="translate(297 297) scale(.2)" fill="#ca6d8c"/>
     </g>
-    <g transform="translate(819 180) rotate(-22)">
+    <g class="fan-left" transform="translate(819 180) rotate(-22)"><g class="drift-left">
       <rect x="-76" y="-107" width="152" height="214" rx="13" fill="#e7e0f7" stroke="#9178d6" stroke-opacity=".45"/>
       <rect x="-65" y="-96" width="130" height="192" rx="7" fill="none" stroke="#9178d6" stroke-opacity=".22"/>
       <use xlink:href="#diamond" fill="#9178d6" transform="scale(1.3)"/>
       <path d="M-45-73H-27M-36-82V-64M27 73H45M36 64V82" stroke="#9178d6" stroke-opacity=".7" stroke-width="1.5"/>
-    </g>
-    <g transform="translate(1014 180) rotate(22)">
+    </g></g>
+    <g class="fan-right" transform="translate(1014 180) rotate(22)"><g class="drift-right">
       <rect x="-76" y="-107" width="152" height="214" rx="13" fill="#dcebf2" stroke="#4398b9" stroke-opacity=".5"/>
       <rect x="-65" y="-96" width="130" height="192" rx="7" fill="none" stroke="#4398b9" stroke-opacity=".25"/>
       <use xlink:href="#heart" fill="#4398b9" transform="scale(1.1)"/>
       <circle cx="-36" cy="-73" r="3" fill="#4398b9"/><circle cx="36" cy="73" r="3" fill="#4398b9"/>
-    </g>
-    <g transform="translate(918 171) rotate(-4)">
+    </g></g>
+    <g class="fan-front" transform="translate(918 171) rotate(-4)"><g class="drift-front">
       <rect x="-80" y="-111" width="166" height="230" rx="14" fill="#131626" opacity=".10" transform="translate(0 7)"/>
       <rect x="-80" y="-115" width="160" height="230" rx="14" fill="#f7f4ff" stroke="#9178d6" stroke-opacity=".45"/>
       <rect x="-68" y="-103" width="136" height="206" rx="8" fill="none" stroke="#d9cfee"/>
@@ -50,12 +88,12 @@
       <circle r="52" fill="none" stroke="#d9cfee"/>
       <use xlink:href="#spade" transform="translate(0 -2) scale(.93)" fill="#7460a4"/>
       <path d="M0-69V-62M0 62V69M-69 0H-62M62 0H69" stroke="#7460a4" stroke-opacity=".4"/>
-    </g>
+    </g></g>
     <g fill="none" stroke-linecap="round">
-      <path d="M715 81V97M707 89H723" stroke="#9178d6" stroke-width="2"/>
-      <path d="M1109 246V258M1103 252H1115" stroke="#ca6d8c" stroke-width="2"/>
-      <circle cx="1088" cy="68" r="4" stroke="#4398b9" stroke-width="1.5"/>
-      <circle cx="752" cy="274" r="3" fill="#ca6d8c" stroke="none"/>
+      <path class="sparkle" d="M715 81V97M707 89H723" stroke="#9178d6" stroke-width="2"/>
+      <path class="sparkle sparkle-two" d="M1109 246V258M1103 252H1115" stroke="#ca6d8c" stroke-width="2"/>
+      <circle class="sparkle sparkle-three" cx="1088" cy="68" r="4" stroke="#4398b9" stroke-width="1.5"/>
+      <circle class="sparkle sparkle-four" cx="752" cy="274" r="3" fill="#ca6d8c" stroke="none"/>
     </g>
   </g>
   <rect x=".5" y=".5" width="1199" height="349" rx="22" fill="none" stroke="url(#edge)"/>
