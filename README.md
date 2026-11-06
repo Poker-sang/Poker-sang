@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
-  <img alt="Poker · 泥嚎！！" src="./assets/banner-light.svg" width="760">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Poker-sang/Poker-sang/main/assets/banner-dark.svg">
+  <img alt="Poker · 泥嚎！！" src="https://raw.githubusercontent.com/Poker-sang/Poker-sang/main/assets/banner-light.svg" width="760">
 </picture>
 
 我是扑克x
