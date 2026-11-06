@@ -77,8 +77,14 @@
 
 ## 数据
 
-![Poker-sang](https://github-readme-stats.vercel.app/api?username=Poker-sang&include_all_commits=true&show_icons=true&hide_title=true&hide_border=true)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-language-stats.poker-sang.workers.dev/activity.svg?theme=dark">
+  <img alt="GitHub activity of Poker-sang" src="https://github-language-stats.poker-sang.workers.dev/activity.svg" width="760">
+</picture>
 
-![Poker-sang](https://github-readme-stats.vercel.app/api/top-langs/?username=Poker-sang&layout=compact&langs_count=10&hide_title=true&hide_border=true)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-language-stats.poker-sang.workers.dev/languages.svg?theme=dark">
+  <img alt="Programming languages used by Poker-sang" src="https://github-language-stats.poker-sang.workers.dev/languages.svg" width="760">
+</picture>
 
 ![Poker-sang](https://count.getloli.com/get/@:Poker-sang?theme=rule34)
