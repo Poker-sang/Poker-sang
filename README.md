@@ -1,4 +1,7 @@
-# ![Banner](https://capsule-render.vercel.app/api?type=transparent&fontColor=ffffff&text=Poker&height=150&fontSize=60&desc=泥嚎！！&descAlignY=75&descAlign=60)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
+  <img alt="Poker · 泥嚎！！" src="./assets/banner-light.svg" width="760">
+</picture>
 
 我是扑克x
 

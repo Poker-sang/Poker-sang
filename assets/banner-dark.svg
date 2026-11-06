@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="350" viewBox="0 0 1200 350" role="img" aria-labelledby="title description">
+  <title id="title">Poker · 泥嚎！！</title>
+  <desc id="description">Poker-sang 的个人主页横幅。淡紫与冰蓝的三张扑克牌，围绕着一枚黑桃。</desc>
+  <defs>
+    <linearGradient id="wash" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#baa5ff" stop-opacity=".10"/><stop offset=".52" stop-color="#8acdea" stop-opacity=".025"/><stop offset="1" stop-color="#f8a1bd" stop-opacity=".08"/></linearGradient>
+    <linearGradient id="heading" x1="0" x2="1"><stop stop-color="#edf0fa"/><stop offset="1" stop-color="#c8beff"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#baa5ff" stop-opacity=".48"/><stop offset=".48" stop-color="#a9b8d0" stop-opacity=".12"/><stop offset="1" stop-color="#8acdea" stop-opacity=".36"/></linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="12" cy="12" r="1" fill="#a9b8d0" opacity=".14"/></pattern>
+    <clipPath id="frame"><rect x="1" y="1" width="1198" height="348" rx="22"/></clipPath>
+    <path id="spade" d="M0-36C-10-23-36-9-36 9C-36 30-11 34 0 17C-2 29-6 36-13 41H13C6 36 2 29 0 17C11 34 36 30 36 9C36-9 10-23 0-36Z"/>
+    <path id="diamond" d="M0-27 19 0 0 27-19 0Z"/>
+    <path id="heart" d="M0 25C-8 17-30 3-30-12C-30-30-8-32 0-17C8-32 30-30 30-12C30 3 8 17 0 25Z"/>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="350" fill="#8b9bb0" fill-opacity=".08"/>
+    <rect width="1200" height="350" fill="url(#wash)"/>
+    <path d="M600 0H1200V350H720Z" fill="url(#dots)"/>
+    <ellipse cx="922" cy="181" rx="270" ry="113" transform="rotate(-23 922 181)" fill="none" stroke="#baa5ff" stroke-opacity=".14"/>
+    <ellipse cx="922" cy="181" rx="222" ry="149" transform="rotate(23 922 181)" fill="none" stroke="#8acdea" stroke-opacity=".13"/>
+    <path d="M678 276C800 347 1093 277 1199 144" fill="none" stroke="#8acdea" stroke-opacity=".12"/>
+    <g font-family="Segoe UI,Inter,Arial,sans-serif">
+      <path d="M64 64H92" stroke="#baa5ff" stroke-width="3" stroke-linecap="round"/>
+      <text x="105" y="69" fill="#aab5c8" font-size="14" letter-spacing="2.5">POKER-SANG</text>
+      <text x="59" y="194" fill="url(#heading)" font-size="120" font-weight="700" letter-spacing="-6">Poker<tspan fill="#f8a1bd">.</tspan></text>
+      <text x="66" y="242" fill="#aab5c8" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" letter-spacing="3">泥嚎！！</text>
+      <text x="66" y="302" fill="#aab5c8" font-size="14" letter-spacing=".6">@Poker-sang</text>
+      <path d="M184 297H249" stroke="#a9b8d0" stroke-opacity=".24"/>
+      <use xlink:href="#spade" transform="translate(273 297) scale(.16)" fill="#baa5ff"/>
+      <use xlink:href="#diamond" transform="translate(297 297) scale(.2)" fill="#f8a1bd"/>
+    </g>
+    <g transform="translate(819 180) rotate(-22)">
+      <rect x="-76" y="-107" width="152" height="214" rx="13" fill="#343651" stroke="#baa5ff" stroke-opacity=".45"/>
+      <rect x="-65" y="-96" width="130" height="192" rx="7" fill="none" stroke="#baa5ff" stroke-opacity=".22"/>
+      <use xlink:href="#diamond" fill="#baa5ff" transform="scale(1.3)"/>
+      <path d="M-45-73H-27M-36-82V-64M27 73H45M36 64V82" stroke="#baa5ff" stroke-opacity=".7" stroke-width="1.5"/>
+    </g>
+    <g transform="translate(1014 180) rotate(22)">
+      <rect x="-76" y="-107" width="152" height="214" rx="13" fill="#293e50" stroke="#8acdea" stroke-opacity=".5"/>
+      <rect x="-65" y="-96" width="130" height="192" rx="7" fill="none" stroke="#8acdea" stroke-opacity=".25"/>
+      <use xlink:href="#heart" fill="#8acdea" transform="scale(1.1)"/>
+      <circle cx="-36" cy="-73" r="3" fill="#8acdea"/><circle cx="36" cy="73" r="3" fill="#8acdea"/>
+    </g>
+    <g transform="translate(918 171) rotate(-4)">
+      <rect x="-80" y="-111" width="166" height="230" rx="14" fill="#131626" opacity=".10" transform="translate(0 7)"/>
+      <rect x="-80" y="-115" width="160" height="230" rx="14" fill="#e9e5ff" stroke="#baa5ff" stroke-opacity=".45"/>
+      <rect x="-68" y="-103" width="136" height="206" rx="8" fill="none" stroke="#cbc2e9"/>
+      <text x="-54" y="-72" font-family="Georgia,serif" font-size="26" fill="#615188">A</text>
+      <use xlink:href="#spade" transform="translate(-45 -50) scale(.2)" fill="#615188"/>
+      <g transform="rotate(180)"><text x="-54" y="-72" font-family="Georgia,serif" font-size="26" fill="#615188">A</text><use xlink:href="#spade" transform="translate(-45 -50) scale(.2)" fill="#615188"/></g>
+      <circle r="52" fill="none" stroke="#cbc2e9"/>
+      <use xlink:href="#spade" transform="translate(0 -2) scale(.93)" fill="#615188"/>
+      <path d="M0-69V-62M0 62V69M-69 0H-62M62 0H69" stroke="#615188" stroke-opacity=".4"/>
+    </g>
+    <g fill="none" stroke-linecap="round">
+      <path d="M715 81V97M707 89H723" stroke="#baa5ff" stroke-width="2"/>
+      <path d="M1109 246V258M1103 252H1115" stroke="#f8a1bd" stroke-width="2"/>
+      <circle cx="1088" cy="68" r="4" stroke="#8acdea" stroke-width="1.5"/>
+      <circle cx="752" cy="274" r="3" fill="#f8a1bd" stroke="none"/>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="349" rx="22" fill="none" stroke="url(#edge)"/>
+</svg>
